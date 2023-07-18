@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.sign {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    background-image: url(image/gold\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-shadow: 25px 40px 60px rgb(73, 72, 73);
+    margin-top: 60px;
+    margin-left: 450px;
+    margin-right: 200px;
+    transition: 2s ease-in-out;
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 34px;
+    color: rgb(49, 1, 49);
+    font-weight: 900;
+
+}
+
+form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+
+.formcontrols {
+
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+
+.formcontrols label {
+    color: black;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.formcontrols input {
+    border: 2px solid#f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.formcontrols input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.formcontrols.success input {
+    border-color: green;
+}
+
+.formcontrols.Error input {
+    border-color: red;
+}
+
+.formcontrols small {
+    color: red;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+
+}
+
+.formcontrols.Error small {
+    visibility: visible;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 9px;
+    width: 100%;
+    margin-left: 10px;
+    box-shadow: 25px 40px 60px rgb(91, 89, 91);
+}
+
+span i {
+    width: 300px;
+    position: relative;
+}
+
+i.fa-eye {
+    position: absolute;
+    top: 40px;
+    left: 320px;
+    cursor: pointer;
+    color: #777;
+}
